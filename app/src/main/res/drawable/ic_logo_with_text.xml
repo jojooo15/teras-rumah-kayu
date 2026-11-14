@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="280dp"
+    android:viewportWidth="200"
+    android:viewportHeight="280">
+    
+    <!-- Background with rounded top (arch shape) exactly like the original logo -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M30,100 L30,240 A20,20 0 0,0 50,260 L150,260 A20,20 0 0,0 170,240 L170,100 A70,70 0 0,0 100,30 A70,70 0 0,0 30,100 Z" />
+    
+    <!-- Simple house outline in orange color matching the original -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M70,90 L100,65 L130,90 L130,115 L70,115 Z" />
+    
+    <!-- House roof peak -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="3"
+        android:pathData="M60,90 L100,55 L140,90" />
+    
+    <!-- Small chimney -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M115,75 L125,75 L125,88 L115,88 Z" />
+    
+    <!-- Text background for better readability -->
+    <path
+        android:fillColor="#654321"
+        android:fillAlpha="0.1"
+        android:pathData="M40,140 L160,140 L160,240 L40,240 Z" />
+    
+    <!-- Text "Teras" -->
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M60,160 L140,160 L140,170 L105,170 L105,190 L95,190 L95,170 L60,170 Z" />
+    
+    <!-- Text "Rumah" -->
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M60,200 L80,200 L80,210 L70,210 L70,220 L80,220 L80,230 L60,230 Z M85,200 L95,200 L95,230 L85,230 Z M100,200 L120,200 L120,210 L110,210 L110,220 L120,220 L120,230 L100,230 Z M125,200 L140,200 L140,230 L125,230 Z" />
+    
+    <!-- Text "Kayu" -->
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M70,240 L80,240 L80,260 L70,260 Z M85,240 L105,240 L105,250 L95,250 L95,260 L85,260 Z M110,240 L120,240 L120,260 L110,260 Z" />
+    
+</vector>

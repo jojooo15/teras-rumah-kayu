@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="200"
+    android:viewportHeight="150">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h200v150h-200z"/>
+    
+    <!-- Plate -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M100,75m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    
+    <!-- Food -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M100,75m-25,0a25,25 0,1 1,50 0a25,25 0,1 1,-50 0"/>
+    
+    <!-- Garnish -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M85,65m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M115,70m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    
+    <!-- Steam lines -->
+    <path
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M90,45 Q90,35 85,30"/>
+    <path
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M100,40 Q100,30 95,25"/>
+    <path
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M110,45 Q110,35 115,30"/>
+</vector>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="280dp"
+    android:viewportWidth="200"
+    android:viewportHeight="280">
+
+    <!-- Background with rounded top (arch shape) exactly like the original logo -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M30,100 L30,240 A20,20 0 0,0 50,260 L150,260 A20,20 0 0,0 170,240 L170,100 A70,70 0 0,0 100,30 A70,70 0 0,0 30,100 Z" />
+
+    <!-- Simple house outline in orange color matching the original -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M70,90 L100,65 L130,90 L130,115 L70,115 Z" />
+
+    <!-- House roof peak -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="3"
+        android:pathData="M60,90 L100,55 L140,90" />
+
+    <!-- Small chimney -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M115,75 L125,75 L125,88 L115,88 Z" />
+
+    <!-- Text "Teras" in elegant serif style -->
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M50,150 L150,150 L150,155 L102,155 L102,180 L98,180 L98,155 L50,155 Z" />
+
+    <!-- Text "Rumah" -->
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M50,190 L70,190 L70,195 L55,195 L55,205 L65,205 L65,210 L50,210 Z M75,190 L85,190 L85,210 L80,210 L80,195 L75,195 Z M90,190 L110,190 L110,195 L95,195 L95,205 L105,205 L105,210 L90,210 Z M115,190 L135,190 L135,195 L120,195 L120,205 L130,205 L130,210 L115,210 Z M140,190 L150,190 L150,210 L145,210 L145,195 L140,195 Z" />
+
+    <!-- Text "Kayu" -->
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M70,220 L80,220 L80,245 L75,245 L75,235 L85,235 L85,240 L90,240 L90,245 L85,245 L85,250 L70,250 Z M95,220 L115,220 L115,225 L100,225 L100,235 L110,235 L110,240 L100,240 L100,250 L95,250 Z M120,220 L130,220 L130,250 L125,250 L125,225 L120,225 Z" />
+
+</vector>

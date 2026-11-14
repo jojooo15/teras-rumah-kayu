@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Monochrome version for themed icons (Android 13+) -->
+    <!-- Simple house outline -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M35,55 L54,40 L73,55 L73,70 L35,70 Z" />
+    
+    <!-- House roof peak -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M30,55 L54,35 L78,55" />
+    
+    <!-- Small chimney -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M63,45 L69,45 L69,52 L63,52 Z" />
+    
+</vector>

@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="200"
+    android:viewportHeight="150">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M0,0h200v150h-200z"/>
+    
+    <!-- Bowl -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M100,90 Q70,90 70,110 Q70,120 100,120 Q130,120 130,110 Q130,90 100,90"/>
+    
+    <!-- Sambal -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M100,85 Q75,85 75,100 Q75,105 100,105 Q125,105 125,100 Q125,85 100,85"/>
+    
+    <!-- Chili pieces -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M90,95m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M110,92m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M105,98m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    
+    <!-- Chili illustration -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M120,50 Q125,45 130,50 Q135,55 130,65 Q125,70 120,65 Q115,60 120,50"/>
+    
+    <!-- Chili stem -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M125,45 Q125,40 128,38"/>
+</vector>

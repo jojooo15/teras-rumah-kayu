@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background with rounded top (arch shape) exactly like the original logo -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M15,54 L15,93 A15,15 0 0,0 30,108 L78,108 A15,15 0 0,0 93,93 L93,54 A39,39 0 0,0 54,15 A39,39 0 0,0 15,54 Z" />
+
+    <!-- Simple house outline in orange color matching the original -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M35,55 L54,40 L73,55 L73,70 L35,70 Z" />
+
+    <!-- House roof peak -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="2.5"
+        android:pathData="M30,55 L54,35 L78,55" />
+
+    <!-- Small chimney -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M63,45 L69,45 L69,52 L63,52 Z" />
+
+</vector>

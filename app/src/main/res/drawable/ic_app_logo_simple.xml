@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Simplified version for small sizes -->
+    <!-- Background with rounded top (arch shape) -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M20,54 L20,88 A10,10 0 0,0 30,98 L78,98 A10,10 0 0,0 88,88 L88,54 A34,34 0 0,0 54,20 A34,34 0 0,0 20,54 Z" />
+
+    <!-- Very simple house outline -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M38,58 L54,45 L70,58 L70,75 L38,75 Z" />
+
+    <!-- Simple roof peak -->
+    <path
+        android:strokeColor="#D2691E"
+        android:strokeWidth="3"
+        android:pathData="M33,58 L54,40 L75,58" />
+
+    <!-- Minimal chimney -->
+    <path
+        android:fillColor="#D2691E"
+        android:pathData="M62,50 L67,50 L67,56 L62,56 Z" />
+
+</vector>
