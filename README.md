@@ -13,6 +13,19 @@ Dibuat sebagai proyek Penulisan Ilmiah di Universitas Gunadarma (2025): *Peranca
 - Ulasan dan penilaian menu, riwayat ulasan, dan poin ganjaran
 - Profil pengguna
 
+## Tampilan
+
+<p>
+  <img src="docs/screenshots/01-beranda.png" width="170" alt="Beranda">
+  <img src="docs/screenshots/02-detail-makanan.png" width="170" alt="Detail menu">
+  <img src="docs/screenshots/03-keranjang.png" width="170" alt="Keranjang">
+</p>
+<p>
+  <img src="docs/screenshots/04-checkout.png" width="170" alt="Checkout">
+  <img src="docs/screenshots/05-profil.png" width="170" alt="Profil">
+  <img src="docs/screenshots/06-review.png" width="170" alt="Ulasan">
+</p>
+
 ## Teknologi
 
 **Aplikasi Android:** Kotlin, Jetpack Compose, MVVM, Navigation Compose, Retrofit + Gson + OkHttp, Coil, DataStore
